@@ -1,0 +1,104 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-top: 50px; /* Отступ сверху для всей страницы */
+  background-image: url('workup.jpg'); /* Путь к вашему изображению */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  background: rgb(100, 100, 100);
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 10px 4px 8px rgba(255, 255, 255, 0.1);
+  margin-top: 50px; /* Добавлен отступ сверху */
+}
+
+header {
+  margin-bottom: 30px;
+  text-align: center; /* Центрирование текста и логотипа */
+}
+
+header .logo {
+  max-width: 150px;
+  margin-top: 20px; /* Добавляем отступ сверху для логотипа */
+  margin-bottom: 20px; /* Добавляем отступ снизу для логотипа */
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  margin-top: 30px; /* Добавляем отступ сверху для заголовка */
+}
+
+header p {
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  text-align: left;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+textarea {
+  height: 120px;
+}
+
+button.submit-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button.submit-btn:hover {
+  background-color: #45a049;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+footer a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 10px 0;
+}
